@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title >Grid layout</title>
+        <link rel="stylesheet" href="grid.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1> Image Grid</h1>
+            <p>Click on the buttons below to change the grid view</p>
+            <div class="icons">
+                <i class="fa fa-square" onclick="full()"></i>
+                <i class="fa fa-th-large" onclick="twoColumn()"></i>
+                <i class="fa fa-th" onclick="fourcol()"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div id="column1">
+                <img src="images (1).jpeg">
+                <img src="images (2).jpeg">
+                <img src="images (3).jpeg">
+                <img src="images (4).jpeg">
+                <img src="images (5).jpeg">
+                <img src="images (6).jpeg">
+                <img src="images (7).jpeg">
+                <img src="images.jpeg">
+                <img src="how-much-website-cost_0.webp">
+            </div>
+        
+        <div id="column2">
+            <img src="img(14).jpeg">
+            <img src="images (2).jpeg">
+            <img src="images.jpeg">
+            <img src="images (4).jpeg">
+            <img src="images (5).jpeg">
+            <img src="images (6).jpeg">
+            <img src="images (7).jpeg">
+            <img src="images.jpeg">
+            <img src="free-photo-of-a-red-door-with-a-shadow-on-the-wall.jpeg">
+        </div>
+        <div id="column3">
+            <img src="free-photo-of-a-balcony-with-plants-and-balconies-on-it.jpeg">
+            <img src="free-photo-of-a-black-and-white-photo-of-sand-dunes.jpeg">
+            <img src="free-photo-of-a-boat-is-docked-at-a-dock-near-mountains.jpeg">
+            <img src="free-photo-of-a-close-up-of-some-orange-and-white-tulips.jpeg">
+            <img src="free-photo-of-a-cup-of-tea-and-flowers-on-the-table.jpeg">
+            <img src="free-photo-of-a-fence-covered-in-snow-with-a-pattern.jpeg">
+            <img src="free-photo-of-a-small-frog-is-sitting-on-top-of-a-leaf.png">
+            <img src="free-photo-of-back-view-of-a-senior-couple-walking-on-a-zebra-crossing-in-a-city.jpeg">
+            <img src="free-photo-of-in-love-with-this-photos.jpeg">
+        </div>
+        <div id="column4">
+            <img src="free-photo-of-a-small-frog-is-sitting-on-top-of-a-leaf.png">
+            <img src="images (2).jpeg">
+            <img src="free-photo-of-a-black-and-white-photo-of-sand-dunes.jpeg">
+            <img src="free-photo-of-a-train-moving-through-a-subway-station-at-night.jpeg">
+            <img src="img(13).jpeg">
+            <img src="free-photo-of-foggy.jpeg">
+            <img src="free-photo-of-a-small-frog-is-sitting-on-top-of-a-leaf.png">
+            <img src="free-photo-of-a-woman-in-a-purple-jacket-standing-in-front-of-a-microphone.jpeg">
+        </div>
+        </div>
+        <script>
+            function full(){
+                document.getElementById("column1").style.width = '100%';
+                document.getElementById("column2").style.width = '100%';
+                document.getElementById("column3").style.width = '100%';
+                document.getElementById("column4").style.width = '100%';
+            }
+            function twoColumn(){
+                document.getElementById("column1").style.width = '50%';
+                document.getElementById("column2").style.width = '50%';
+                document.getElementById("column3").style.width = '50%';
+                document.getElementById("column4").style.width = '50%';
+            }
+            function fourcol(){
+                document.getElementById("column1").style.width = '30%';
+                document.getElementById("column2").style.width = '30%';
+                document.getElementById("column3").style.width = '30%';
+                document.getElementById("column4").style.width = '30%';
+            }
+        </script>
+    </body>
+</html>

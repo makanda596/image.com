@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.header{
+    margin:2px auto;
+    text-align: center;
+}
+.header h1{
+    padding:10px 0;
+    text-transform: uppercase;
+}
+.header p{
+    font-size: larger;
+    text-decoration:underline;
+}
+.icons{
+    background-color: red;
+    margin: 30px auto;
+}
+.fa{
+   margin: 5px 10px;
+   font-size: 25px !important;
+   color:#fff;
+   cursor: pointer;
+}
+.fa:hover{
+    color:blue;
+    transition: 0.4s;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#column1,#column2,#column3,#column4{
+    width: 25%;
+}
+img{
+    padding:1%;
+    width:98%;
+}
